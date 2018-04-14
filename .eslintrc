@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": 2,
+    "indent": [
+      "error",
+      2
+    ],
+    "object-curly-spacing":
+      "error",
+      2
+    ]
+  },
+  "plugins": [
+    "jest",
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ]
+}

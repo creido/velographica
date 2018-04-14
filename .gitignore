@@ -1,0 +1,12 @@
+# folders
+coverage/
+dist/
+node_modules/
+.idea/
+
+# IDE
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+yarn-error.log
